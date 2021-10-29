@@ -1,14 +1,27 @@
+:root {
+  --main-bg-color: #293241ff;
+  --highlight: #ee6c4dff;
+  --content-1: #3d5a80ff;
+  --content-2: #98c1d9ff;
+  --content-3: #e0fbfcff;
+}
+
 body {
-  background-color: darkgrey;
+  background-color: var(--main-bg-color);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  color: maroon;
+  color: var(--highlight);
   text-align: center;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 p {
   text-align: center;
+  color: var(--content-2);
+}
+
+.highlite-txt {
+  color: var(--highlight);
 }
