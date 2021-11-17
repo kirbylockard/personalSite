@@ -1,0 +1,42 @@
+/* https://xd.adobe.com/view/5ef4037b-2a5f-4ee1-9688-81df4f4fb3a7-0ba7/specs/ */
+:root {
+  --PBL90: #141011;
+  --PBL80: #282023;
+  --PBL70: #3C2F34;
+  --PBL60: #503F46;
+  --PBL50: #644F57;
+  --PBL40: #7A606A;
+  --PBL30: #8D6F7B;
+  --PBL20: #A27F8D;
+  --PBL10: #B58F9E;
+  --P100: #CA9FB0;
+  --PW10: #CFA9B8;
+  --PW20: #D5B2C0;
+  --PW30: #DABCC8;
+  --PW40: #E0C6D0;
+  --PW50: #E4CFD7;
+  --PW60: #E9D8DF;
+  --PW70: #EFE2E7;
+  --PW80: #F4ECEF;
+  --PW90: #FAF6F7;
+
+  --BBL90: #050C11;
+  --BBL80: #0A1823;
+  --BBL70: #0F2334;
+  --BBL60: #142F46;
+  --BBL50: #193B57;
+  --BBL40: #1E4769;
+  --BBL30: #23537A;
+  --BBL20: #285E8C;
+  --BBL10: #2D6A9D;
+  --B100: #3276AF;
+  --BW10: #4784B7;
+  --BW20: #5B91BF;
+  --BW30: #70A0C7;
+  --BW40: #84ADCF;
+  --BW50: #99BBD7;
+  --BW60: #ADC8DF;
+  --BW70: #C2D6E7;
+  --BW80: #D6E4EF;
+  --BW90: #EBF2F7;
+}

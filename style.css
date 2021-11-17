@@ -1,10 +1,3 @@
-:root {
-  --main-bg-color: #293241ff;
-  --highlight: #ee6c4dff;
-  --content-1: #3d5a80ff;
-  --content-2: #98c1d9ff;
-  --content-3: #e0fbfcff;
-}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,24 +8,20 @@
 header {
   width: 100%;
   height: 15vh;
-  background-color: var(--content-1);
-  position: relative;
+  background-color: var(--BBL50);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 header img {
   height: 15vh;
   width: 15vh;
   border-radius: 50%;
-  display: inline-block;
   padding: 15px;
-  
-  
+  margin-right: auto;
 }
 header nav {
-  display:inline-block;
-  position: absolute;
-  top: 30%;
-  right: 40px;
   font-size: 2rem;
 }
 
@@ -42,15 +31,31 @@ header nav ul li {
   padding-right: 15px;
 }
 
+nav a {
+  text-decoration: none;
+  color: var(--B100);
+}
+
+.active {
+  color: var(--P100);
+}
+
+nav a:hover {
+  color: var(--PW20);
+  text-decoration: underline;
+}
+
 main {
-  background-color: var(--main-bg-color);
+  background-color: var(--BBL70);
   font-family: Arial, Helvetica, sans-serif;
   height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main section {
   width: 70vw;
   margin: auto;
-  padding-top: 20vh;
   position: relative;
 }
 main section img {
@@ -58,12 +63,14 @@ main section img {
   width: 200px;
   border-radius: 50%;
   position:absolute;
-  top: 10vh;
   left: -100px;
+  top: -100px;
 }
+
 main section p {
-  background: var(--content-2);
+  background: var(--B100);
   padding: 5vw;
+  box-shadow: 0 0 10px var(--P100);
 }
 
 img {
@@ -73,19 +80,28 @@ img {
 
 footer{
   height: 10vh;
-  background-color: var(--content-1);
+  background-color: var(--BBL50);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-footer img {
+.social, .copy, .contact {
+  flex-grow: 1;
+}
+
+.social img {
   height: 40px;
   width: 40px;
   border-radius: 50%; 
+
 }
 
-footer .copy, .social, .contact {
-  display:inline-block;
-  width: 33vw;
+.social {
+  display: flex;
+  justify-content: space-around;
 }
 .copy p, .contact p {
   text-align: center;
+  color: var(--B100);
 }
