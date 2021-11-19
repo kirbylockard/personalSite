@@ -65,7 +65,7 @@ main .bio {
   background-color: var(--BW40);
   padding: 5vh;
   border-radius: 10px;
-  box-shadow: var(--P100);
+  box-shadow: 0 0 20px var(--P100);
 }
 
 .imgcrop {
@@ -74,7 +74,7 @@ main .bio {
   position: relative;
   overflow: hidden;
   border-radius: 50%;
-  margin: 5vh;
+  margin: 4vh 0 1vh;
 }
 .imgcrop img {
   display: inline;
