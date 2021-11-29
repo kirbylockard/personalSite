@@ -28,7 +28,7 @@ header img {
   margin-right: auto;
 }
 header nav {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: lighter;
 }
 
@@ -65,7 +65,10 @@ main .bio {
   background-color: var(--BW40);
   padding: 5vh;
   border-radius: 10px;
-  box-shadow: 0 0 20px var(--P100);
+  border: 5px solid var(--PW30);
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: 0 0 20px var(--P100); */
 }
 
 .imgcrop {
@@ -75,6 +78,8 @@ main .bio {
   overflow: hidden;
   border-radius: 50%;
   margin: 4vh 0 1vh;
+  margin: auto;
+  border: 2px solid var(--BBL30);
 }
 .imgcrop img {
   display: inline;
@@ -86,12 +91,13 @@ main .bio {
 .bio h1 {
   line-height: 1.4;
   color: var(--PBL30);
+  margin: auto;
+  padding: 1rem;
 }
 
 .bio p {
   line-height: 1.2;
   color: var(--PBL90);
-  margin-top: 10px;
 }
 
 footer{
