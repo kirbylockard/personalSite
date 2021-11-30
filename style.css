@@ -69,20 +69,17 @@ main .bio {
 
 }
 
-.imgcrop {
+.kirbyimg {
   height: 100%;
   width: auto;
   position: relative;
   overflow: hidden;
   grid-column: 2 / span 2;
   grid-row: 1 / span 2;
-
-}
-.imgcrop img {
-  display: inline;
-  margin: auto -25px auto;
-  height: 100%;
-  width: auto;
+  background-image: url("img/kirby.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .greeting {
