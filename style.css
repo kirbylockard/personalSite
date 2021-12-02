@@ -180,7 +180,7 @@ MAIN
 FOOTER
 */
 footer {
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap-reverse;
 }
@@ -196,3 +196,41 @@ footer .social a {
 /* ====================================
     MEDIA QUERIES
    ==================================== */
+
+@media screen and (min-width: 1025px) {
+  body {
+    width: 80vw;
+    max-width: 1920px;
+  }
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header .logo {
+    margin: 0;
+  }
+
+  header nav ul {
+    margin-right: 0;
+    font-weight: lighter;
+  }
+
+  main {
+    width: 80%;
+  }
+
+  .bio {
+    grid-template-columns: 1fr 2fr 4fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-areas:
+    "emptyB KL greeting"
+    "emptyB KL bio"
+    "emptyB emptyP bio"
+  }
+
+  footer {
+    justify-content: space-around;
+  }
+} 
+  
