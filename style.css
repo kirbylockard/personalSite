@@ -283,7 +283,7 @@ footer .social a {
     grid-template-areas:
     "emptyB KL greeting"
     "emptyB KL bio"
-    "emptyB emptyP bio"
+    "emptyB emptyP bio";
   }
 
   /* Skills Page */
@@ -306,4 +306,63 @@ footer .social a {
     justify-content: space-around;
   }
 } 
-  
+
+/* Experience Page */
+.experience {
+  width: 70vw;
+  height: 50vw;
+  margin: 10vw auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timelinewrap {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 10px 1fr;
+  grid-template-areas:
+  "msu . wow . p3d ."
+  "line line line line line line"
+  ". giles . hk . dev";
+}
+
+.exptag {
+  background-color: var(--BBL50);
+  margin: 1rem;
+  flex-grow: 1;
+}
+
+.exptag h1 {
+  font-size: 1.4rem;
+}
+
+.msu {
+  grid-area: msu;
+}
+.giles {
+  grid-area: giles;
+}
+.wow {
+  grid-area: wow;
+}
+.hk {
+  grid-area: hk;
+}
+.p3d {
+  grid-area: p3d;
+}
+
+.dev {
+  grid-area: dev;
+}
+
+.line {
+  grid-area: line;
+  background-color: var(--PW20);
+}
+
+.featuredworks {
+  margin-top: 5rem;
+}
+
