@@ -310,8 +310,8 @@ footer .social a {
 /* Experience Page */
 .experience {
   width: 70vw;
-  height: 50vw;
-  margin: 10vw auto;
+  height: 90vh;
+  margin: 5rem auto;
   display: flex;
   flex-direction: column;
 }
